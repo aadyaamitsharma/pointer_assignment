@@ -1,0 +1,26 @@
+2. int *p, q; What does both of these terms signify?
+ANS: *p shows that it is a pointer and q shows that it is an integer.
+
+3. Predict the output of the following code snippet.
+int a = 10, b = 20;
+int *ptr = &a;
+b = *ptr + 1;
+ptr = &b;
+cout << *ptr << ‘ ‘ << a << ‘ ‘ << b;
+
+ANS: output will be 11 10 11
+
+4. Predict the output of the following code snippet.
+int a = 15, b = 20;
+int *ptr = &a;
+int *ptr2 = &b;
+*ptr = *ptr2;
+
+ANS: a gets the value of b
+
+5. Predict the output of the following code snippet.
+int a = 10, b = 20;
+int *ptr;
+*ptr = 5;
+
+ANS: output will give a garbage value as ptr does not have address of any variable so it will show garbage value.
